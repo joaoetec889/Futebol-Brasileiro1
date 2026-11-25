@@ -1,0 +1,16 @@
+PROJETO: FUTEBOL BRASILEIRO
+
+Como abrir:
+1. Extraia o arquivo ZIP.
+2. Abra a pasta futebol_brasileiro_simples.
+3. Abra o arquivo index.html no navegador.
+
+Arquivos:
+- index.html: conteúdo e estrutura do site.
+- css/style.css: aparência do site.
+- js/script.js: botão de curiosidade e formulário.
+- imagens/: ilustrações usadas no site.
+
+Os códigos possuem comentários explicando as partes principais.
+O Bootstrap é carregado pela internet, então é necessária conexão para o menu responsivo.
+O formulário é apenas demonstrativo e não envia os dados para um servidor.

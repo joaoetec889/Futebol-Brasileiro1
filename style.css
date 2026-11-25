@@ -1,0 +1,115 @@
+/* Estilos gerais da página. */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Cor do menu de navegação. */
+.navbar {
+    background-color: #126b35;
+}
+
+/* Parte inicial do site. */
+.apresentacao {
+    background-color: #168344;
+    color: white;
+    padding: 65px 15px;
+}
+
+.apresentacao h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.apresentacao p {
+    font-size: 18px;
+}
+
+/* Espaçamento das seções. */
+.secao {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.secao h2 {
+    color: #126b35;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Fundo cinza para separar os campeonatos. */
+.fundo-claro {
+    background-color: #f1f1f1;
+}
+
+/* Caixas com os nomes dos campeonatos. */
+.bloco {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    height: 100%;
+}
+
+.bloco h3 {
+    color: #126b35;
+    font-size: 21px;
+}
+
+/* Tamanho das imagens. */
+.imagem {
+    display: block;
+    max-height: 250px;
+    margin: 10px auto;
+}
+
+/* Lista de clubes organizada em duas colunas. */
+.lista-clubes {
+    columns: 2;
+    padding-left: 25px;
+}
+
+.lista-clubes li {
+    margin-bottom: 8px;
+}
+
+/* Parte que fala sobre a Seleção Brasileira. */
+.selecao {
+    background-color: #168344;
+    color: white;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.selecao h2 {
+    color: white;
+}
+
+/* Limita a largura do formulário. */
+form {
+    max-width: 500px;
+}
+
+/* Rodapé do site. */
+footer {
+    background-color: #126b35;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Ajustes para telas de celular. */
+@media (max-width: 600px) {
+    .apresentacao h1 {
+        font-size: 32px;
+    }
+
+    .lista-clubes {
+        columns: 1;
+    }
+}
